@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-empty-function */
 import constants from '../../common/constants';
 import { getMonitoringError } from '../../common/utilities/error';
 import type { AppDispatch } from '../../core';
@@ -213,8 +212,10 @@ const DefaultNode = ({ targetPosition = Position.Top, sourcePosition = Position.
   const label = useNodeDisplayName(id);
 
   const [showDeleteModal, setShowDeleteModal] = useState(false);
-  const [showCopyCallout, setShowCopyCallout] = useState(false);
+  const handleDeleteClick = () => setShowDeleteModal(true);
+  const handleDelete = () => dispatch(deleteOperation({ nodeId: id, isTrigger: !!isTrigger }));
 
+  const [showCopyCallout, setShowCopyCallout] = useState(false);
   useOnViewportChange({
     onStart: useCallback(() => {
       if (showCopyCallout) {
@@ -222,8 +223,6 @@ const DefaultNode = ({ targetPosition = Position.Top, sourcePosition = Position.
       }
     }, [showCopyCallout]),
   });
-
-  const handleDeleteClick = () => setShowDeleteModal(true);
   const handleCopyClick = () => {
     setShowCopyCallout(true);
     dispatch(copyOperation({ nodeId: id }));
@@ -231,7 +230,6 @@ const DefaultNode = ({ targetPosition = Position.Top, sourcePosition = Position.
       setShowCopyCallout(false);
     }, 3000);
   };
-  const handleDelete = () => dispatch(deleteOperation({ nodeId: id, isTrigger: !!isTrigger }));
 
   const getMenuItems = (): MenuItemOption[] => {
     const deleteDescription = intl.formatMessage({
@@ -244,12 +242,12 @@ const DefaultNode = ({ targetPosition = Position.Top, sourcePosition = Position.
     });
 
     const copyAction = intl.formatMessage({
-      defaultMessage: 'Copy Action',
+      defaultMessage: 'Copy Action (preview)',
       description: 'Copy Action text',
     });
 
     const copyTrigger = intl.formatMessage({
-      defaultMessage: 'Copy Trigger',
+      defaultMessage: 'Copy Trigger (preview)',
       description: 'Copy Trigger text',
     });
 

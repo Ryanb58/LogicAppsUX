@@ -917,6 +917,12 @@
       "value": "Authentication"
     }
   ],
+  "47T/iR": [
+    {
+      "type": 0,
+      "value": "Copy Trigger (preview)"
+    }
+  ],
   "47kOXr": [
     {
       "type": 0,
@@ -1691,6 +1697,12 @@
     {
       "type": 0,
       "value": "Line Position"
+    }
+  ],
+  "93aESs": [
+    {
+      "type": 0,
+      "value": "Copy Subgraph (preview)"
     }
   ],
   "93svjx": [
@@ -5919,12 +5931,6 @@
       "value": "Collapse Static Result"
     }
   ],
-  "ZUCTVP": [
-    {
-      "type": 0,
-      "value": "Paste an action"
-    }
-  ],
   "ZUaz3Y": [
     {
       "type": 0,
@@ -6645,6 +6651,12 @@
       "value": "Please select file or image"
     }
   ],
+  "fLHDZ4": [
+    {
+      "type": 0,
+      "value": "Copy Action (preview)"
+    }
+  ],
   "fVG5aD": [
     {
       "type": 0,
@@ -7055,12 +7067,6 @@
     {
       "type": 0,
       "value": "Redo"
-    }
-  ],
-  "i1vHaT": [
-    {
-      "type": 0,
-      "value": "Copy Action"
     }
   ],
   "i4C4aB": [
@@ -8103,12 +8109,6 @@
       "value": "Invalid integer value"
     }
   ],
-  "oRxmXb": [
-    {
-      "type": 0,
-      "value": "Copy Trigger"
-    }
-  ],
   "oTBkbU": [
     {
       "type": 0,
@@ -8529,6 +8529,12 @@
     {
       "type": 0,
       "value": "Enables an expression to derive its value from other JSON name and value pairs or the output of the runtime action"
+    }
+  ],
+  "r9DqOp": [
+    {
+      "type": 0,
+      "value": "Paste an action (preview)"
     }
   ],
   "r9SVE4": [

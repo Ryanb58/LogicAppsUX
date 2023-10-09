@@ -1,5 +1,5 @@
 import type { AppDispatch } from '../../core';
-import { pasteOperation } from '../../core/actions/bjsworkflow/copypaste';
+import { pasteOperation, pasteScopeOperation } from '../../core/actions/bjsworkflow/copypaste';
 import { expandDiscoveryPanel } from '../../core/state/panel/panelSlice';
 import { useUpstreamNodes } from '../../core/state/tokens/tokenSelectors';
 import { useNodeDisplayName, useGetAllOperationNodesWithin } from '../../core/state/workflow/workflowSelectors';
@@ -10,7 +10,7 @@ import AddNodeIcon from './edgeContextMenuSvgs/addNodeIcon.svg';
 import { ActionButton, Callout, DirectionalHint, FocusZone } from '@fluentui/react';
 import { css } from '@fluentui/utilities';
 import { ActionButtonV2 } from '@microsoft/designer-ui';
-import { containsIdTag, guid, removeIdTag } from '@microsoft/utils-logic-apps';
+import { containsIdTag, convertSpaceToDash, guid, removeIdTag } from '@microsoft/utils-logic-apps';
 import { useCallback, useState } from 'react';
 import { useDrop } from 'react-dnd';
 import { useIntl } from 'react-intl';
@@ -50,7 +50,7 @@ export const DropZone: React.FC<DropZoneProps> = ({ graphId, parentId, childId, 
   });
 
   const pasteFromClipboard = intl.formatMessage({
-    defaultMessage: 'Paste an action',
+    defaultMessage: 'Paste an action (preview)',
     description: 'Text for button to paste an action from clipboard',
   });
 
@@ -63,14 +63,25 @@ export const DropZone: React.FC<DropZoneProps> = ({ graphId, parentId, childId, 
   const handlePasteClicked = useCallback(() => {
     const relationshipIds = { graphId, childId, parentId };
     if (copiedNode) {
-      dispatch(
-        pasteOperation({
-          relationshipIds,
-          nodeId: copiedNode.nodeId,
-          nodeData: copiedNode.nodeData,
-          operationInfo: copiedNode.operationInfo,
-        })
-      );
+      if (copiedNode.isScopeNode) {
+        dispatch(
+          pasteScopeOperation({
+            relationshipIds,
+            nodeId: copiedNode.nodeId,
+            serializedOperation: copiedNode.serializedOperation,
+            operationInfo: copiedNode.operationInfo,
+          })
+        );
+      } else {
+        dispatch(
+          pasteOperation({
+            relationshipIds,
+            nodeId: copiedNode.nodeId,
+            nodeData: copiedNode.nodeData,
+            operationInfo: copiedNode.operationInfo,
+          })
+        );
+      }
     }
   }, [graphId, childId, parentId, dispatch, copiedNode]);
 
@@ -147,7 +158,7 @@ export const DropZone: React.FC<DropZoneProps> = ({ graphId, parentId, childId, 
     setShowCallout(!showCallout);
   };
 
-  const buttonId = `msla-edge-button-${parentId}-${childId}`.replace(/\W/g, '-');
+  const buttonId = convertSpaceToDash(`msla-edge-button-${parentId}-${childId}`);
 
   const showParallelBranchButton = !isLeaf && parentId;
 
@@ -168,7 +179,7 @@ export const DropZone: React.FC<DropZoneProps> = ({ graphId, parentId, childId, 
             id={buttonId}
             title={tooltipText}
             onClick={actionButtonClick}
-            dataAutomationId={`msla-plus-button-${parentId}-${childId}`.replace(/\W/g, '-')}
+            dataAutomationId={convertSpaceToDash(`msla-plus-button-${parentId}-${childId}`)}
           />
           {showCallout && (
             <Callout
@@ -185,7 +196,7 @@ export const DropZone: React.FC<DropZoneProps> = ({ graphId, parentId, childId, 
                   <ActionButton
                     iconProps={{ imageProps: { src: AddNodeIcon } }}
                     onClick={openAddNodePanel}
-                    data-automation-id={`msla-add-action-${parentId}-${childId}`.replace(/\W/g, '-')}
+                    data-automation-id={convertSpaceToDash(`msla-add-action-${parentId}-${childId}`)}
                   >
                     {newActionText}
                   </ActionButton>
@@ -193,7 +204,7 @@ export const DropZone: React.FC<DropZoneProps> = ({ graphId, parentId, childId, 
                     <ActionButton
                       iconProps={{ imageProps: { src: AddBranchIcon } }}
                       onClick={addParallelBranch}
-                      data-automation-id={`msla-add-parallel-branch-${parentId}-${childId}`.replace(/\W/g, '-')}
+                      data-automation-id={convertSpaceToDash(`msla-add-parallel-branch-${parentId}-${childId}`)}
                     >
                       {newBranchText}
                     </ActionButton>
