@@ -64,8 +64,10 @@ export const ConfigPanel = ({
   const fetchedTargetSchema = useQuery(
     [selectedTargetSchema],
     async () => {
+      console.log('*Elaina: selectedTargetSchema : ', selectedTargetSchema);
       if (selectedTargetSchema) {
         const [fileName, filePath] = getFileNameAndPath(selectedTargetSchema);
+        console.log('*Elaina: fileName filePath : ', fileName, filePath);
 
         return await getSelectedSchema(fileName ?? '', filePath);
       } else return await getSelectedSchema(selectedTargetSchema ?? '', '');
@@ -140,6 +142,7 @@ export const ConfigPanel = ({
 
       // Catch specific errors from GET schemaTree or otherwise
       const schemaLoadError = schemaType === SchemaType.Source ? fetchedSourceSchema.error : fetchedTargetSchema.error;
+      console.log('Elaina: schemaLoadError : ', fetchedSourceSchema, schemaLoadError);
       if (schemaLoadError) {
         if (typeof schemaLoadError === 'string') {
           setErrorMessage(schemaLoadError);
