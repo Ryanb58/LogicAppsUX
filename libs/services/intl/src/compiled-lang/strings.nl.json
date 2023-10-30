@@ -60,7 +60,7 @@
   "+ijo/2": [
     {
       "type": 0,
-      "value": "Paste last used expression"
+      "value": "Laatst gebruikte expressie plakken"
     }
   ],
   "+mAJR3": [
@@ -1021,12 +1021,6 @@
       "value": "Toggle Minimap"
     }
   ],
-  "4pm5yw": [
-    {
-      "type": 0,
-      "value": "Knop om dynamische inhoud toe te voegen als TokenPicker is verborgen"
-    }
-  ],
   "4vcnOA": [
     {
       "type": 0,
@@ -1765,12 +1759,6 @@
     {
       "type": 0,
       "value": ", kan niet worden gevonden in de uitvoer."
-    }
-  ],
-  "9W3giy": [
-    {
-      "type": 0,
-      "value": "In ontwikkeling"
     }
   ],
   "9YGcT2": [
@@ -3013,12 +3001,6 @@
       "value": "Selecteer een bestaande verbindingsverwijzing of maak een nieuwe."
     }
   ],
-  "HQ8/tk": [
-    {
-      "type": 0,
-      "value": "Knop om dynamische inhoud toe te voegen als TokenPicker wordt weergegeven"
-    }
-  ],
   "HSJLCu": [
     {
       "type": 0,
@@ -3473,6 +3455,12 @@
     {
       "type": 0,
       "value": "Het onderdeel dag van de week van een tijdstempel wordt als tekenreeks geretourneerd"
+    }
+  ],
+  "L0hujG": [
+    {
+      "type": 0,
+      "value": "Button to add dynamic content if Token Picker is shown"
     }
   ],
   "L4RJF0": [
@@ -5959,6 +5947,12 @@
       "value": "Nieuw item toevoegen"
     }
   ],
+  "ZihyUf": [
+    {
+      "type": 0,
+      "value": "Close"
+    }
+  ],
   "ZkjTbp": [
     {
       "type": 0,
@@ -7011,6 +7005,12 @@
       "value": "Doelgroep"
     }
   ],
+  "hwj1Ht": [
+    {
+      "type": 0,
+      "value": "Stroom bewerken"
+    }
+  ],
   "hza/cT": [
     {
       "type": 0,
@@ -7612,7 +7612,7 @@
   "lX30/R": [
     {
       "type": 0,
-      "value": "Collapse"
+      "value": "Samenvouwen"
     }
   ],
   "lZT0JI": [
@@ -8132,7 +8132,7 @@
   "oZMhX/": [
     {
       "type": 0,
-      "value": "Expand"
+      "value": "Uitvouwen"
     }
   ],
   "odQ554": [
@@ -8247,6 +8247,12 @@
     {
       "type": 0,
       "value": "Vereist. Het getal waardoor het deeltal moet worden gedeeld. Na de deling wordt het restant gebruikt."
+    }
+  ],
+  "pc0FCg": [
+    {
+      "type": 0,
+      "value": "Button to add dynamic content if Token Picker is hidden"
     }
   ],
   "pcGqoB": [
@@ -8977,6 +8983,12 @@
       "value": "Weergavenaam"
     }
   ],
+  "tu4TTM": [
+    {
+      "type": 0,
+      "value": "Preview"
+    }
+  ],
   "u81zB9": [
     {
       "type": 0,
@@ -9313,12 +9325,6 @@
     {
       "type": 0,
       "value": "Deze bevat een dubbele waarde"
-    }
-  ],
-  "vyKxuD": [
-    {
-      "type": 0,
-      "value": "Expand"
     }
   ],
   "vz2gZC": [
@@ -9853,12 +9859,6 @@
     {
       "type": 0,
       "value": "(UTC+12:00) Petropavlovsk-Kamtsjatski - verouderd"
-    }
-  ],
-  "zYbkZM": [
-    {
-      "type": 0,
-      "value": "Collapse"
     }
   ],
   "zb3lE6": [

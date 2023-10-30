@@ -1033,12 +1033,6 @@
       "value": "Minimap umschalten"
     }
   ],
-  "4pm5yw": [
-    {
-      "type": 0,
-      "value": "Schaltfläche zum Hinzufügen dynamischer Inhalte, wenn TokenPicker ausgeblendet ist"
-    }
-  ],
   "4vcnOA": [
     {
       "type": 0,
@@ -1777,12 +1771,6 @@
     {
       "type": 0,
       "value": "“. Er kann nicht in den Ausgaben gefunden werden."
-    }
-  ],
-  "9W3giy": [
-    {
-      "type": 0,
-      "value": "In der Entwicklung"
     }
   ],
   "9YGcT2": [
@@ -3037,12 +3025,6 @@
       "value": "Wählen Sie eine vorhandene Verbindungsreferenz aus, oder erstellen Sie eine neue."
     }
   ],
-  "HQ8/tk": [
-    {
-      "type": 0,
-      "value": "Schaltfläche zum Hinzufügen von dynamischem Inhalt, wenn TokenPicker angezeigt ist"
-    }
-  ],
   "HSJLCu": [
     {
       "type": 0,
@@ -3501,6 +3483,12 @@
     {
       "type": 0,
       "value": "Gibt die Wochentagkomponente eines Zeichenfolgen-Zeitstempels zurück."
+    }
+  ],
+  "L0hujG": [
+    {
+      "type": 0,
+      "value": "Button to add dynamic content if Token Picker is shown"
     }
   ],
   "L4RJF0": [
@@ -6015,6 +6003,12 @@
       "value": "Neues Element hinzufügen"
     }
   ],
+  "ZihyUf": [
+    {
+      "type": 0,
+      "value": "Close"
+    }
+  ],
   "ZkjTbp": [
     {
       "type": 0,
@@ -7071,6 +7065,12 @@
       "value": "Benutzergruppe"
     }
   ],
+  "hwj1Ht": [
+    {
+      "type": 0,
+      "value": "Flow bearbeiten"
+    }
+  ],
   "hza/cT": [
     {
       "type": 0,
@@ -7672,7 +7672,7 @@
   "lX30/R": [
     {
       "type": 0,
-      "value": "Collapse"
+      "value": "Reduzieren"
     }
   ],
   "lZT0JI": [
@@ -8196,7 +8196,7 @@
   "oZMhX/": [
     {
       "type": 0,
-      "value": "Expand"
+      "value": "Erweitern"
     }
   ],
   "odQ554": [
@@ -8311,6 +8311,12 @@
     {
       "type": 0,
       "value": "Erforderlich. Die Zahl, durch die der Dividend zu teilen ist. Nach der Division wird der Rest verwendet."
+    }
+  ],
+  "pc0FCg": [
+    {
+      "type": 0,
+      "value": "Button to add dynamic content if Token Picker is hidden"
     }
   ],
   "pcGqoB": [
@@ -9049,6 +9055,12 @@
       "value": "Anzeigename"
     }
   ],
+  "tu4TTM": [
+    {
+      "type": 0,
+      "value": "Vorschau"
+    }
+  ],
   "u81zB9": [
     {
       "type": 0,
@@ -9389,12 +9401,6 @@
     {
       "type": 0,
       "value": "Dies enthält einen doppelten Wert."
-    }
-  ],
-  "vyKxuD": [
-    {
-      "type": 0,
-      "value": "Expand"
     }
   ],
   "vz2gZC": [
@@ -9933,12 +9939,6 @@
     {
       "type": 0,
       "value": "(UTC+12:00) Petropawlowsk-Kamtschatski – alt"
-    }
-  ],
-  "zYbkZM": [
-    {
-      "type": 0,
-      "value": "Collapse"
     }
   ],
   "zb3lE6": [

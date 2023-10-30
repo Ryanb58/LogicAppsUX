@@ -64,7 +64,7 @@
   "+ijo/2": [
     {
       "type": 0,
-      "value": "Paste last used expression"
+      "value": "Legutóbb használt kifejezés beillesztése"
     }
   ],
   "+mAJR3": [
@@ -1029,12 +1029,6 @@
       "value": "Kódtérkép be- és kikapcsolása"
     }
   ],
-  "4pm5yw": [
-    {
-      "type": 0,
-      "value": "Dinamikus tartalom hozzáadására szolgáló gomb, ha a TokenPicker rejtett"
-    }
-  ],
   "4vcnOA": [
     {
       "type": 0,
@@ -1761,12 +1755,6 @@
     {
       "type": 0,
       "value": "” érték szerinti felosztás. Nem található a kimenetekben."
-    }
-  ],
-  "9W3giy": [
-    {
-      "type": 0,
-      "value": "Fejlesztés alatt"
     }
   ],
   "9YGcT2": [
@@ -3013,12 +3001,6 @@
       "value": "Válasszon ki egy meglévő kapcsolati hivatkozást, vagy hozzon létre egy újat."
     }
   ],
-  "HQ8/tk": [
-    {
-      "type": 0,
-      "value": "Dinamikus tartalom hozzáadására szolgáló gomb, ha a TokenPicker látható"
-    }
-  ],
   "HSJLCu": [
     {
       "type": 0,
@@ -3477,6 +3459,12 @@
     {
       "type": 0,
       "value": "Egy sztring típusú időbélyegnek a hét napját megadó összetevőjét adja vissza."
+    }
+  ],
+  "L0hujG": [
+    {
+      "type": 0,
+      "value": "Button to add dynamic content if Token Picker is shown"
     }
   ],
   "L4RJF0": [
@@ -5959,6 +5947,12 @@
       "value": "Új elem hozzáadása"
     }
   ],
+  "ZihyUf": [
+    {
+      "type": 0,
+      "value": "Close"
+    }
+  ],
   "ZkjTbp": [
     {
       "type": 0,
@@ -7015,6 +7009,12 @@
       "value": "Célközönség"
     }
   ],
+  "hwj1Ht": [
+    {
+      "type": 0,
+      "value": "Folyamat szerkesztése"
+    }
+  ],
   "hza/cT": [
     {
       "type": 0,
@@ -7616,7 +7616,7 @@
   "lX30/R": [
     {
       "type": 0,
-      "value": "Collapse"
+      "value": "Összecsukás"
     }
   ],
   "lZT0JI": [
@@ -8136,7 +8136,7 @@
   "oZMhX/": [
     {
       "type": 0,
-      "value": "Expand"
+      "value": "Kibontás"
     }
   ],
   "odQ554": [
@@ -8251,6 +8251,12 @@
     {
       "type": 0,
       "value": "Kötelező megadni. A szám, mellyel el kell osztani az osztandót. Az osztás után a függvény a maradékot használja fel."
+    }
+  ],
+  "pc0FCg": [
+    {
+      "type": 0,
+      "value": "Button to add dynamic content if Token Picker is hidden"
     }
   ],
   "pcGqoB": [
@@ -8989,6 +8995,12 @@
       "value": "Megjelenített név"
     }
   ],
+  "tu4TTM": [
+    {
+      "type": 0,
+      "value": "Előzetes verzió"
+    }
+  ],
   "u81zB9": [
     {
       "type": 0,
@@ -9325,12 +9337,6 @@
     {
       "type": 0,
       "value": "Ez ismétlődő értéket tartalmaz"
-    }
-  ],
-  "vyKxuD": [
-    {
-      "type": 0,
-      "value": "Expand"
     }
   ],
   "vz2gZC": [
@@ -9869,12 +9875,6 @@
     {
       "type": 0,
       "value": "(UTC+12:00) Petropavlovszk-Kamcsatszkij – régi"
-    }
-  ],
-  "zYbkZM": [
-    {
-      "type": 0,
-      "value": "Collapse"
     }
   ],
   "zb3lE6": [

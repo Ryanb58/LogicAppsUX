@@ -60,7 +60,7 @@
   "+ijo/2": [
     {
       "type": 0,
-      "value": "Paste last used expression"
+      "value": "粘贴上次使用的表达式"
     }
   ],
   "+mAJR3": [
@@ -1025,12 +1025,6 @@
       "value": "切换缩略图"
     }
   ],
-  "4pm5yw": [
-    {
-      "type": 0,
-      "value": "当 TokenPicker 隐藏时添加动态内容的按钮"
-    }
-  ],
   "4vcnOA": [
     {
       "type": 0,
@@ -1765,12 +1759,6 @@
     {
       "type": 0,
       "value": "\" 无效，在输出中找不到它。"
-    }
-  ],
-  "9W3giy": [
-    {
-      "type": 0,
-      "value": "正在开发"
     }
   ],
   "9YGcT2": [
@@ -2991,12 +2979,6 @@
       "value": "选择现有连接引用或新建。"
     }
   ],
-  "HQ8/tk": [
-    {
-      "type": 0,
-      "value": "当 TokenPicker 显示时添加动态内容的按钮"
-    }
-  ],
   "HSJLCu": [
     {
       "type": 0,
@@ -3444,6 +3426,12 @@
     {
       "type": 0,
       "value": "返回字符串时间戳星期组件的某天"
+    }
+  ],
+  "L0hujG": [
+    {
+      "type": 0,
+      "value": "Button to add dynamic content if Token Picker is shown"
     }
   ],
   "L4RJF0": [
@@ -5947,6 +5935,12 @@
       "value": "添加新项"
     }
   ],
+  "ZihyUf": [
+    {
+      "type": 0,
+      "value": "Close"
+    }
+  ],
   "ZkjTbp": [
     {
       "type": 0,
@@ -6992,6 +6986,12 @@
       "value": "受众"
     }
   ],
+  "hwj1Ht": [
+    {
+      "type": 0,
+      "value": "编辑流"
+    }
+  ],
   "hza/cT": [
     {
       "type": 0,
@@ -7590,7 +7590,7 @@
   "lX30/R": [
     {
       "type": 0,
-      "value": "Collapse"
+      "value": "折叠"
     }
   ],
   "lZT0JI": [
@@ -8118,7 +8118,7 @@
   "oZMhX/": [
     {
       "type": 0,
-      "value": "Expand"
+      "value": "展开"
     }
   ],
   "odQ554": [
@@ -8233,6 +8233,12 @@
     {
       "type": 0,
       "value": "必需。被除数要除以的数字。相除后，将取余数。"
+    }
+  ],
+  "pc0FCg": [
+    {
+      "type": 0,
+      "value": "Button to add dynamic content if Token Picker is hidden"
     }
   ],
   "pcGqoB": [
@@ -8960,6 +8966,12 @@
       "value": "显示名称"
     }
   ],
+  "tu4TTM": [
+    {
+      "type": 0,
+      "value": "预览"
+    }
+  ],
   "u81zB9": [
     {
       "type": 0,
@@ -9296,12 +9308,6 @@
     {
       "type": 0,
       "value": "这包含重复的值"
-    }
-  ],
-  "vyKxuD": [
-    {
-      "type": 0,
-      "value": "Expand"
     }
   ],
   "vz2gZC": [
@@ -9840,12 +9846,6 @@
     {
       "type": 0,
       "value": "(UTC+12:00)彼得罗巴甫洛夫斯克-堪察加 - 旧称"
-    }
-  ],
-  "zYbkZM": [
-    {
-      "type": 0,
-      "value": "Collapse"
     }
   ],
   "zb3lE6": [
